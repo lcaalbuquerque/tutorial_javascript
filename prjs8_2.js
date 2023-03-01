@@ -21,6 +21,7 @@ Computer.prototype.describe = function()
     document.write("Processor: " + this.processor + "<br>");
     document.write("RAM: " + this.ram + "<br>");
     document.write("Hard Disk: " + this.hd + "</p>");
+    document.write("<p>Last Updated: " + document.lastModified);
 };
 
 var work_computer = new Computer("Work", "2GHz", "8GB", "1TB");
